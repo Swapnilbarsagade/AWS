@@ -1,0 +1,16 @@
+#!/bin/bash 
+sudo apt update
+sudo apt install -y nodejs npm
+sudo npm install -g n 
+sudo n 14.17.0 
+git clone https://github.com/shubhamkalsait/devops-fullstack-app.git
+cd devops-fullstack-app/frontend/
+npm install
+npm start
+
+
+
+
+
+
+
