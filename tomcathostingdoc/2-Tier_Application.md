@@ -92,7 +92,7 @@ Step 9: login to database and create database and Add schema.
 
      -> Add following query to create table schema:
 
-        CREATE TABLE if not exists students(student_id INT NOT NULL AUTO_INCREMENT,
+     CREATE TABLE if not exists students(student_id INT NOT NULL AUTO_INCREMENT,
     student_name VARCHAR(100) NOT NULL,
     student_addr VARCHAR(100) NOT NULL,
     student_age VARCHAR(3) NOT NULL,
@@ -100,8 +100,7 @@ Step 9: login to database and create database and Add schema.
     student_percent VARCHAR(10) NOT NULL,
     student_year_passed VARCHAR(10) NOT NULL,
     PRIMARY KEY (student_id)
-
-);
+     );
 
     -> to see databases and tables use:
 
